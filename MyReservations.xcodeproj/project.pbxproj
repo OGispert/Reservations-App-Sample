@@ -7,23 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		932763108866B05815D8100F /* Pods_MyReservations.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33185FE89DDD9BAE672C4E59 /* Pods_MyReservations.framework */; };
+		C3C2B55E1E5B485000A9296D /* CalendarVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3C2B55D1E5B485000A9296D /* CalendarVC.swift */; };
 		C3E74E521E5892A000B31A5C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E511E5892A000B31A5C /* AppDelegate.swift */; };
-		C3E74E541E5892A000B31A5C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E531E5892A000B31A5C /* ViewController.swift */; };
+		C3E74E541E5892A000B31A5C /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E531E5892A000B31A5C /* MainVC.swift */; };
 		C3E74E571E5892A000B31A5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E74E551E5892A000B31A5C /* Main.storyboard */; };
 		C3E74E5A1E5892A000B31A5C /* MyReservations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E581E5892A000B31A5C /* MyReservations.xcdatamodeld */; };
 		C3E74E5C1E5892A000B31A5C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C3E74E5B1E5892A000B31A5C /* Assets.xcassets */; };
 		C3E74E5F1E5892A000B31A5C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C3E74E5D1E5892A000B31A5C /* LaunchScreen.storyboard */; };
+		C3E74E6F1E58AACC00B31A5C /* RoundCorners.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E6E1E58AACC00B31A5C /* RoundCorners.swift */; };
+		C3E74E711E58AE6300B31A5C /* ReservationCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E701E58AE6200B31A5C /* ReservationCell.swift */; };
+		C3E74E731E58CB0100B31A5C /* PaqView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E721E58CB0100B31A5C /* PaqView.swift */; };
+		C3E74E751E58D43700B31A5C /* CellDesign.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E741E58D43700B31A5C /* CellDesign.swift */; };
+		C3E74E7B1E58DC5200B31A5C /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E7A1E58DC5200B31A5C /* Constants.swift */; };
+		C3E74E7D1E58E2C100B31A5C /* JsonCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E7C1E58E2C100B31A5C /* JsonCall.swift */; };
+		C3E74E7F1E58F19600B31A5C /* ScheduleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E7E1E58F19600B31A5C /* ScheduleView.swift */; };
+		C3E74E891E596D8900B31A5C /* HoursCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3E74E881E596D8900B31A5C /* HoursCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		33185FE89DDD9BAE672C4E59 /* Pods_MyReservations.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyReservations.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C09164E0B6D287F53A90136 /* Pods-MyReservations.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReservations.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyReservations/Pods-MyReservations.debug.xcconfig"; sourceTree = "<group>"; };
+		69AE448150BA7057C6EE1184 /* Pods-MyReservations.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyReservations.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyReservations/Pods-MyReservations.release.xcconfig"; sourceTree = "<group>"; };
+		C3C2B55D1E5B485000A9296D /* CalendarVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarVC.swift; sourceTree = "<group>"; };
 		C3E74E4E1E5892A000B31A5C /* MyReservations.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyReservations.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C3E74E511E5892A000B31A5C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C3E74E531E5892A000B31A5C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C3E74E531E5892A000B31A5C /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		C3E74E561E5892A000B31A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C3E74E591E5892A000B31A5C /* MyReservations.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyReservations.xcdatamodel; sourceTree = "<group>"; };
 		C3E74E5B1E5892A000B31A5C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C3E74E5E1E5892A000B31A5C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C3E74E601E5892A000B31A5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C3E74E6E1E58AACC00B31A5C /* RoundCorners.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundCorners.swift; sourceTree = "<group>"; };
+		C3E74E701E58AE6200B31A5C /* ReservationCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ReservationCell.swift; sourceTree = "<group>"; };
+		C3E74E721E58CB0100B31A5C /* PaqView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaqView.swift; sourceTree = "<group>"; };
+		C3E74E741E58D43700B31A5C /* CellDesign.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CellDesign.swift; sourceTree = "<group>"; };
+		C3E74E7A1E58DC5200B31A5C /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		C3E74E7C1E58E2C100B31A5C /* JsonCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JsonCall.swift; sourceTree = "<group>"; };
+		C3E74E7E1E58F19600B31A5C /* ScheduleView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScheduleView.swift; sourceTree = "<group>"; };
+		C3E74E881E596D8900B31A5C /* HoursCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HoursCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +53,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				932763108866B05815D8100F /* Pods_MyReservations.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2E3B4F903652B4D6E0684BF8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5C09164E0B6D287F53A90136 /* Pods-MyReservations.debug.xcconfig */,
+				69AE448150BA7057C6EE1184 /* Pods-MyReservations.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		904DC244E44ED221775C7AE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				33185FE89DDD9BAE672C4E59 /* Pods_MyReservations.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C3E74E451E5892A000B31A5C = {
 			isa = PBXGroup;
 			children = (
 				C3E74E501E5892A000B31A5C /* MyReservations */,
 				C3E74E4F1E5892A000B31A5C /* Products */,
+				2E3B4F903652B4D6E0684BF8 /* Pods */,
+				904DC244E44ED221775C7AE3 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +98,56 @@
 		C3E74E501E5892A000B31A5C /* MyReservations */ = {
 			isa = PBXGroup;
 			children = (
+				C3E74E691E58A8AE00B31A5C /* Resources */,
+				C3E74E681E58A8A600B31A5C /* Model */,
+				C3E74E671E58A8A000B31A5C /* View */,
+				C3E74E661E58A89400B31A5C /* Controller */,
 				C3E74E511E5892A000B31A5C /* AppDelegate.swift */,
-				C3E74E531E5892A000B31A5C /* ViewController.swift */,
 				C3E74E551E5892A000B31A5C /* Main.storyboard */,
-				C3E74E5B1E5892A000B31A5C /* Assets.xcassets */,
 				C3E74E5D1E5892A000B31A5C /* LaunchScreen.storyboard */,
 				C3E74E601E5892A000B31A5C /* Info.plist */,
 				C3E74E581E5892A000B31A5C /* MyReservations.xcdatamodeld */,
 			);
 			path = MyReservations;
+			sourceTree = "<group>";
+		};
+		C3E74E661E58A89400B31A5C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				C3E74E531E5892A000B31A5C /* MainVC.swift */,
+				C3E74E721E58CB0100B31A5C /* PaqView.swift */,
+				C3E74E7E1E58F19600B31A5C /* ScheduleView.swift */,
+				C3C2B55D1E5B485000A9296D /* CalendarVC.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		C3E74E671E58A8A000B31A5C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C3E74E6E1E58AACC00B31A5C /* RoundCorners.swift */,
+				C3E74E741E58D43700B31A5C /* CellDesign.swift */,
+				C3E74E701E58AE6200B31A5C /* ReservationCell.swift */,
+				C3E74E881E596D8900B31A5C /* HoursCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		C3E74E681E58A8A600B31A5C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C3E74E7C1E58E2C100B31A5C /* JsonCall.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		C3E74E691E58A8AE00B31A5C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C3E74E5B1E5892A000B31A5C /* Assets.xcassets */,
+				C3E74E7A1E58DC5200B31A5C /* Constants.swift */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +157,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C3E74E631E5892A000B31A5C /* Build configuration list for PBXNativeTarget "MyReservations" */;
 			buildPhases = (
+				94AD893ED11294B2D7A3264E /* [CP] Check Pods Manifest.lock */,
 				C3E74E4A1E5892A000B31A5C /* Sources */,
 				C3E74E4B1E5892A000B31A5C /* Frameworks */,
 				C3E74E4C1E5892A000B31A5C /* Resources */,
+				8439716245EBA2277A57FBBC /* [CP] Embed Pods Frameworks */,
+				DE3104760FE4FAB91D33E730 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -100,6 +186,7 @@
 					C3E74E4D1E5892A000B31A5C = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = B3Y8LN5T95;
+						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -135,14 +222,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8439716245EBA2277A57FBBC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyReservations/Pods-MyReservations-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94AD893ED11294B2D7A3264E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DE3104760FE4FAB91D33E730 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyReservations/Pods-MyReservations-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C3E74E4A1E5892A000B31A5C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C3E74E541E5892A000B31A5C /* ViewController.swift in Sources */,
+				C3E74E541E5892A000B31A5C /* MainVC.swift in Sources */,
+				C3E74E7D1E58E2C100B31A5C /* JsonCall.swift in Sources */,
+				C3C2B55E1E5B485000A9296D /* CalendarVC.swift in Sources */,
+				C3E74E6F1E58AACC00B31A5C /* RoundCorners.swift in Sources */,
+				C3E74E711E58AE6300B31A5C /* ReservationCell.swift in Sources */,
+				C3E74E891E596D8900B31A5C /* HoursCell.swift in Sources */,
 				C3E74E521E5892A000B31A5C /* AppDelegate.swift in Sources */,
+				C3E74E7F1E58F19600B31A5C /* ScheduleView.swift in Sources */,
 				C3E74E5A1E5892A000B31A5C /* MyReservations.xcdatamodeld in Sources */,
+				C3E74E751E58D43700B31A5C /* CellDesign.swift in Sources */,
+				C3E74E731E58CB0100B31A5C /* PaqView.swift in Sources */,
+				C3E74E7B1E58DC5200B31A5C /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -261,26 +405,33 @@
 		};
 		C3E74E641E5892A000B31A5C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5C09164E0B6D287F53A90136 /* Pods-MyReservations.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B3Y8LN5T95;
 				INFOPLIST_FILE = MyReservations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iGispert.MyReservations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		C3E74E651E5892A000B31A5C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 69AE448150BA7057C6EE1184 /* Pods-MyReservations.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = B3Y8LN5T95;
 				INFOPLIST_FILE = MyReservations/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iGispert.MyReservations;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -304,6 +455,7 @@
 				C3E74E651E5892A000B31A5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

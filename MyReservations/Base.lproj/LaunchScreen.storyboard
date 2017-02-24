@@ -1,27 +1,57 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11134" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fiw-tm-BQY">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11106"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
-        <scene sceneID="EHf-IW-A2E">
+        <scene sceneID="lnb-W2-JML">
             <objects>
-                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                <viewController id="fiw-tm-BQY" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
-                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                        <viewControllerLayoutGuide type="top" id="LWA-VL-x6V"/>
+                        <viewControllerLayoutGuide type="bottom" id="G2N-Cn-h9Q"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                    <view key="view" contentMode="scaleToFill" id="6rm-qz-eg7">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jZ6-Wi-hLW">
+                                <rect key="frame" x="0.0" y="389" width="375" height="128"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="RESERVATION" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="25" translatesAutoresizingMaskIntoConstraints="NO" id="w04-GQ-PgI">
+                                        <rect key="frame" x="8" y="34" width="359" height="60"/>
+                                        <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" red="0.3793888688" green="0.70082837340000004" blue="0.92233258490000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstItem="w04-GQ-PgI" firstAttribute="top" secondItem="jZ6-Wi-hLW" secondAttribute="top" constant="34" id="ZjV-g1-bXo"/>
+                                    <constraint firstAttribute="trailing" secondItem="w04-GQ-PgI" secondAttribute="trailing" constant="8" id="caw-qy-eqd"/>
+                                    <constraint firstAttribute="height" constant="128" id="gdf-jI-MTF"/>
+                                    <constraint firstItem="w04-GQ-PgI" firstAttribute="leading" secondItem="jZ6-Wi-hLW" secondAttribute="leading" constant="8" id="qcj-Zg-9Wh"/>
+                                    <constraint firstAttribute="bottom" secondItem="w04-GQ-PgI" secondAttribute="bottom" constant="34" id="zQQ-De-RFF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="jZ6-Wi-hLW" secondAttribute="trailing" id="6W9-Qd-4kU"/>
+                            <constraint firstItem="jZ6-Wi-hLW" firstAttribute="leading" secondItem="6rm-qz-eg7" secondAttribute="leading" id="nLR-Iw-z42"/>
+                            <constraint firstItem="G2N-Cn-h9Q" firstAttribute="top" secondItem="jZ6-Wi-hLW" secondAttribute="bottom" constant="150" id="wc9-Zs-kku"/>
+                        </constraints>
                     </view>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="icI-OA-N75" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="53" y="375"/>
+            <point key="canvasLocation" x="118" y="315"/>
         </scene>
     </scenes>
 </document>
